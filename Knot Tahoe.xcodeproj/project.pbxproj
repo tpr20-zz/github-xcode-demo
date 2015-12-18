@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CA3CD221C24903700E4D064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3CD211C24903700E4D064 /* AppDelegate.swift */; };
+		1CA3CD241C24903700E4D064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3CD231C24903700E4D064 /* ViewController.swift */; };
+		1CA3CD271C24903700E4D064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3CD251C24903700E4D064 /* Main.storyboard */; };
+		1CA3CD291C24903700E4D064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3CD281C24903700E4D064 /* Assets.xcassets */; };
+		1CA3CD2C1C24903700E4D064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CA3CD2A1C24903700E4D064 /* LaunchScreen.storyboard */; };
+		1CA3CD371C24903800E4D064 /* Knot_TahoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3CD361C24903800E4D064 /* Knot_TahoeTests.swift */; };
+		1CA3CD421C24903800E4D064 /* Knot_TahoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA3CD411C24903800E4D064 /* Knot_TahoeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CA3CD331C24903800E4D064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CA3CD161C24903700E4D064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA3CD1D1C24903700E4D064;
+			remoteInfo = "Knot Tahoe";
+		};
+		1CA3CD3E1C24903800E4D064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CA3CD161C24903700E4D064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CA3CD1D1C24903700E4D064;
+			remoteInfo = "Knot Tahoe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CA3CD1E1C24903700E4D064 /* Knot Tahoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Knot Tahoe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA3CD211C24903700E4D064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CA3CD231C24903700E4D064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CA3CD261C24903700E4D064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CA3CD281C24903700E4D064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CA3CD2B1C24903700E4D064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CA3CD2D1C24903700E4D064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA3CD321C24903800E4D064 /* Knot TahoeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Knot TahoeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA3CD361C24903800E4D064 /* Knot_TahoeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knot_TahoeTests.swift; sourceTree = "<group>"; };
+		1CA3CD381C24903800E4D064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CA3CD3D1C24903800E4D064 /* Knot TahoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Knot TahoeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CA3CD411C24903800E4D064 /* Knot_TahoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knot_TahoeUITests.swift; sourceTree = "<group>"; };
+		1CA3CD431C24903800E4D064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CA3CD1B1C24903700E4D064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA3CD2F1C24903800E4D064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA3CD3A1C24903800E4D064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA3CD151C24903700E4D064 = {
+			isa = PBXGroup;
+			children = (
+				1CA3CD201C24903700E4D064 /* Knot Tahoe */,
+				1CA3CD351C24903800E4D064 /* Knot TahoeTests */,
+				1CA3CD401C24903800E4D064 /* Knot TahoeUITests */,
+				1CA3CD1F1C24903700E4D064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CA3CD1F1C24903700E4D064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CA3CD1E1C24903700E4D064 /* Knot Tahoe.app */,
+				1CA3CD321C24903800E4D064 /* Knot TahoeTests.xctest */,
+				1CA3CD3D1C24903800E4D064 /* Knot TahoeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CA3CD201C24903700E4D064 /* Knot Tahoe */ = {
+			isa = PBXGroup;
+			children = (
+				1CA3CD211C24903700E4D064 /* AppDelegate.swift */,
+				1CA3CD231C24903700E4D064 /* ViewController.swift */,
+				1CA3CD251C24903700E4D064 /* Main.storyboard */,
+				1CA3CD281C24903700E4D064 /* Assets.xcassets */,
+				1CA3CD2A1C24903700E4D064 /* LaunchScreen.storyboard */,
+				1CA3CD2D1C24903700E4D064 /* Info.plist */,
+			);
+			path = "Knot Tahoe";
+			sourceTree = "<group>";
+		};
+		1CA3CD351C24903800E4D064 /* Knot TahoeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CA3CD361C24903800E4D064 /* Knot_TahoeTests.swift */,
+				1CA3CD381C24903800E4D064 /* Info.plist */,
+			);
+			path = "Knot TahoeTests";
+			sourceTree = "<group>";
+		};
+		1CA3CD401C24903800E4D064 /* Knot TahoeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CA3CD411C24903800E4D064 /* Knot_TahoeUITests.swift */,
+				1CA3CD431C24903800E4D064 /* Info.plist */,
+			);
+			path = "Knot TahoeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CA3CD1D1C24903700E4D064 /* Knot Tahoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA3CD461C24903800E4D064 /* Build configuration list for PBXNativeTarget "Knot Tahoe" */;
+			buildPhases = (
+				1CA3CD1A1C24903700E4D064 /* Sources */,
+				1CA3CD1B1C24903700E4D064 /* Frameworks */,
+				1CA3CD1C1C24903700E4D064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Knot Tahoe";
+			productName = "Knot Tahoe";
+			productReference = 1CA3CD1E1C24903700E4D064 /* Knot Tahoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CA3CD311C24903800E4D064 /* Knot TahoeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA3CD491C24903800E4D064 /* Build configuration list for PBXNativeTarget "Knot TahoeTests" */;
+			buildPhases = (
+				1CA3CD2E1C24903800E4D064 /* Sources */,
+				1CA3CD2F1C24903800E4D064 /* Frameworks */,
+				1CA3CD301C24903800E4D064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA3CD341C24903800E4D064 /* PBXTargetDependency */,
+			);
+			name = "Knot TahoeTests";
+			productName = "Knot TahoeTests";
+			productReference = 1CA3CD321C24903800E4D064 /* Knot TahoeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CA3CD3C1C24903800E4D064 /* Knot TahoeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA3CD4C1C24903800E4D064 /* Build configuration list for PBXNativeTarget "Knot TahoeUITests" */;
+			buildPhases = (
+				1CA3CD391C24903800E4D064 /* Sources */,
+				1CA3CD3A1C24903800E4D064 /* Frameworks */,
+				1CA3CD3B1C24903800E4D064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CA3CD3F1C24903800E4D064 /* PBXTargetDependency */,
+			);
+			name = "Knot TahoeUITests";
+			productName = "Knot TahoeUITests";
+			productReference = 1CA3CD3D1C24903800E4D064 /* Knot TahoeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CA3CD161C24903700E4D064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Knot Complex";
+				TargetAttributes = {
+					1CA3CD1D1C24903700E4D064 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1CA3CD311C24903800E4D064 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1CA3CD1D1C24903700E4D064;
+					};
+					1CA3CD3C1C24903800E4D064 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1CA3CD1D1C24903700E4D064;
+					};
+				};
+			};
+			buildConfigurationList = 1CA3CD191C24903700E4D064 /* Build configuration list for PBXProject "Knot Tahoe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CA3CD151C24903700E4D064;
+			productRefGroup = 1CA3CD1F1C24903700E4D064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CA3CD1D1C24903700E4D064 /* Knot Tahoe */,
+				1CA3CD311C24903800E4D064 /* Knot TahoeTests */,
+				1CA3CD3C1C24903800E4D064 /* Knot TahoeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CA3CD1C1C24903700E4D064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA3CD2C1C24903700E4D064 /* LaunchScreen.storyboard in Resources */,
+				1CA3CD291C24903700E4D064 /* Assets.xcassets in Resources */,
+				1CA3CD271C24903700E4D064 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA3CD301C24903800E4D064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA3CD3B1C24903800E4D064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CA3CD1A1C24903700E4D064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA3CD241C24903700E4D064 /* ViewController.swift in Sources */,
+				1CA3CD221C24903700E4D064 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA3CD2E1C24903800E4D064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA3CD371C24903800E4D064 /* Knot_TahoeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CA3CD391C24903800E4D064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA3CD421C24903800E4D064 /* Knot_TahoeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CA3CD341C24903800E4D064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA3CD1D1C24903700E4D064 /* Knot Tahoe */;
+			targetProxy = 1CA3CD331C24903800E4D064 /* PBXContainerItemProxy */;
+		};
+		1CA3CD3F1C24903800E4D064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CA3CD1D1C24903700E4D064 /* Knot Tahoe */;
+			targetProxy = 1CA3CD3E1C24903800E4D064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CA3CD251C24903700E4D064 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA3CD261C24903700E4D064 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CA3CD2A1C24903700E4D064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA3CD2B1C24903700E4D064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CA3CD441C24903800E4D064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CA3CD451C24903800E4D064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CA3CD471C24903800E4D064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Knot Tahoe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Knot-Tahoe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CA3CD481C24903800E4D064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Knot Tahoe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Knot-Tahoe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CA3CD4A1C24903800E4D064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Knot TahoeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Knot-TahoeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knot Tahoe.app/Knot Tahoe";
+			};
+			name = Debug;
+		};
+		1CA3CD4B1C24903800E4D064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Knot TahoeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Knot-TahoeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Knot Tahoe.app/Knot Tahoe";
+			};
+			name = Release;
+		};
+		1CA3CD4D1C24903800E4D064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Knot TahoeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Knot-TahoeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Knot Tahoe";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1CA3CD4E1C24903800E4D064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Knot TahoeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "test.Knot-TahoeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Knot Tahoe";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CA3CD191C24903700E4D064 /* Build configuration list for PBXProject "Knot Tahoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA3CD441C24903800E4D064 /* Debug */,
+				1CA3CD451C24903800E4D064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CA3CD461C24903800E4D064 /* Build configuration list for PBXNativeTarget "Knot Tahoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA3CD471C24903800E4D064 /* Debug */,
+				1CA3CD481C24903800E4D064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CA3CD491C24903800E4D064 /* Build configuration list for PBXNativeTarget "Knot TahoeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA3CD4A1C24903800E4D064 /* Debug */,
+				1CA3CD4B1C24903800E4D064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CA3CD4C1C24903800E4D064 /* Build configuration list for PBXNativeTarget "Knot TahoeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CA3CD4D1C24903800E4D064 /* Debug */,
+				1CA3CD4E1C24903800E4D064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CA3CD161C24903700E4D064 /* Project object */;
+}
